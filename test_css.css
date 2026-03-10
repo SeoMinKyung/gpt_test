@@ -1,0 +1,151 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+body {
+
+font-family:sans-serif;
+background:#f8f8f8;
+color:#333;
+text-align:center;
+
+}
+
+
+/* 섹션 기본 */
+
+section {
+
+padding:60px 20px;
+
+}
+
+
+/* 커버 */
+
+.cover {
+
+height:100vh;
+
+display:flex;
+flex-direction:column;
+
+justify-content:center;
+align-items:center;
+
+background:#ffeef2;
+
+}
+
+
+.cover h1 {
+
+font-size:32px;
+margin-bottom:20px;
+
+}
+
+
+.cover p {
+
+font-size:18px;
+
+}
+
+
+/* 초대 문구 */
+
+.invitation {
+
+background:white;
+
+}
+
+
+.invitation h2 {
+
+margin-bottom:20px;
+
+}
+
+
+/* 예식 정보 */
+
+.info {
+
+background:#fafafa;
+
+}
+
+
+.info-box {
+
+margin-bottom:20px;
+
+}
+
+
+button {
+
+padding:12px 20px;
+border:none;
+
+background:#ff7a9c;
+color:white;
+
+border-radius:6px;
+
+cursor:pointer;
+
+}
+
+
+/* 갤러리 */
+
+.gallery {
+  background: white;
+}
+
+.mySwiper {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+}
+
+.swiper-slide img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 14px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  transform: scale(0.7);
+}
+
+
+/* 계좌 */
+
+.account {
+
+background:white;
+
+}
