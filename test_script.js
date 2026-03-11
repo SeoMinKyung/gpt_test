@@ -12,7 +12,7 @@ function openMap() {
 }
 
 let bgm;
-let musicPlaying = true;
+let musicPlaying = false;
 
 function toggleMusic() {
   const btn = document.getElementById("musicBtn");
